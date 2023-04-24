@@ -2,7 +2,7 @@
 
 int main() {
     int a;
-    int *p; // "p" armazena um endereço de memória. E esse endereço contém um valor inteiro
+    int *p; // "p" aponta para um endereço de memória. E esse endereço contém um valor inteiro
     p = &a;
     a = 10;
 
