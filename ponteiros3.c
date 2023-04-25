@@ -3,7 +3,8 @@
 int main () {
     int a = 1, b = 2, c = 3, d = 4, e = 5;
     int *p;
-    p = &c;
+    p = &c; // o endereço de p está apontando para o endereço de c.
+    *p = c; // o Valor do ponteiro p, vai ser o valor de c. 
     printf("a: %d\n", a);
     printf("b: %d\n", b);
     printf("c: %d\n", c);
